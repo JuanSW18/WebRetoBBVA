@@ -127,4 +127,31 @@ li a:hover:not(.activate){
     li{
       width: 33.3%;  
     }
+
+    #div-content{
+        width: 100%;
+        padding: 0;
+        display: block;
+        justify-content: center;
+    }
+    
+    .card{
+        padding: 10px;
+        display: flex;
+        flex-direction: column;
+        margin: 15px 5px;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        border: 2px solid #000000;
+    }
+
+    .card > *{
+        margin-top: 2px;
+        margin-bottom: 2px;
+    }
+
+    .card > input{
+        margin-top: 15px;
+    }
 }
