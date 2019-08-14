@@ -52,7 +52,11 @@
 
     .row > p{
         display: inline-block;
-        width: 60%;
+        width: 65%;
+    }
+
+    .row-detail > p{
+        width: 100% !important;
     }
 }
 
