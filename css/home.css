@@ -80,3 +80,35 @@ li a:hover:not(.activate){
     text-align: center;
     border: 2px solid #000000;
 }
+
+@media (max-width: 520px){
+    .logo{
+        width: 100px;
+        height: 32px;
+        display: block;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        position: static;
+        padding: 0;
+        padding-bottom: 10px;
+    }
+    
+    .titulo{
+        display: block;
+        margin: 0;
+    }
+    
+    .content-titulo{
+        text-align: center;
+        margin: 0;
+        background-color: #072146;
+        color: #ffffff;
+        padding: 15px 0;
+        border-bottom: 1px solid #ffffff;
+    }
+
+    #navbar{
+        display: none;
+    }
+}

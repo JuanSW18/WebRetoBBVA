@@ -19,14 +19,6 @@ function ocultar_mensaje() {
     setTimeout(function(){mensaje.attr('hidden', true); }, 1000);
 }
 
-/**By: Dhaval Thakkar (dhavalt10) */
-function init(){
-    history.pushState(null, null, location.href);
-    window.onpopstate = function () {
-        history.go(1);
-    };
-}
-
 function showDetail(element) {
     let padre = $(element).parent();
     let div = padre.siblings("div");
