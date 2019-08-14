@@ -83,9 +83,6 @@ li a:hover:not(.activate){
 
 @media (max-width: 520px){
     .logo{
-        width: 100px;
-        height: 32px;
-        display: block;
         display: block;
         margin-left: auto;
         margin-right: auto;
@@ -100,48 +97,32 @@ li a:hover:not(.activate){
     }
     
     .content-titulo{
-        text-align: center;
-        margin: 0;
-        background-color: #072146;
-        color: #ffffff;
         padding: 15px 0;
-        border-bottom: 1px solid #ffffff;
     }
 
     #navbar{
-        background-color: #072146;
         width: 100%;
         display: block;
         /*vertical-align: top;*/
     }
     
     ul{
-        list-style-type: none;
-        margin: 0;
-        padding: 0;
         height: 100%;
         display: flex;
         justify-content: center;
     }
-    
+
     li{
       width: 33.3%;  
     }
 
     li a {
-        display: block;
-        color: #ffffff;
-        padding: 8px 16px;
-        text-decoration: none;
         font-size: 12px;
-        border-bottom: 1px solid #ffffff;
     }
 
     #div-content{
         width: 100%;
-        padding: 0;
         display: block;
-        justify-content: center;
     }
     
     .card{
@@ -149,10 +130,8 @@ li a:hover:not(.activate){
         display: flex;
         flex-direction: column;
         margin: 15px 5px;
-        text-align: center;
         justify-content: center;
         align-items: center;
-        border: 2px solid #000000;
     }
 
     .card > *{
