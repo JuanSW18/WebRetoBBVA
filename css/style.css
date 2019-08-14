@@ -1,0 +1,66 @@
+body{
+    margin: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+h1{
+    margin: 0;
+    text-align: center;
+    background-color: #072146;
+    color: #ffffff;
+    padding: 25px;
+}
+
+.formulario{
+    width: 250px;
+    text-align: center;
+    padding: 25px;
+    margin: auto;
+    left: auto;
+    right: auto;
+}
+
+#info_mensaje{
+    color: #ec2323;
+    font-size: 15px;
+    margin-top: 0px;
+    margin-bottom: 2px;
+}
+
+#i_dni{
+    border: none;
+    border-bottom-style: solid;
+    border-bottom-color: #072146;
+    width: 150px;
+    height: 30px;
+    font-size: 18px;
+    text-align: center;
+    transition: width 0.5s;
+    transition-timing-function: ease-out;
+}
+
+#i_dni:focus{
+    outline: none;
+    width: 190px;
+}
+
+.btn-in, .btn-pagar{
+    background-color: white;
+    color: black;
+    border: 2px solid #072146;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+}
+
+.btn-in:hover, .btn-pagar:hover{
+    background-color: #072146;
+    color: white;
+}
+
+.btn-in:focus{
+    background-color: #072146;
+    color: white;
+}

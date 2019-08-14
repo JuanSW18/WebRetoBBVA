@@ -1,0 +1,82 @@
+body{
+    margin: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.logo{
+    width: 100px;
+    height: 32px;
+    padding-left: 55px;/*Centrar con el navbar*/
+    display: inline-block;
+    /*Alinear a la inzquierda*/
+    position: absolute;
+    left: 0px;
+}
+
+.titulo{
+    display: inline-block;
+    margin: 0;
+}
+
+.content-titulo{
+    text-align: center;
+    margin: 0;
+    background-color: #072146;
+    color: #ffffff;
+    font-size: 30px;
+    padding: 25px 0;
+    border-bottom: 1px solid #ffffff;
+}
+
+#navbar{
+    background-color: #072146;
+    width: 15%;
+	display: inline-block;
+	vertical-align: top;
+}
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    height: 570px;
+}
+
+li a {
+    display: block;
+    color: #ffffff;
+    padding: 8px 16px;
+    text-decoration: none;
+    font-size: 18px;
+    border-bottom: 1px solid #ffffff;
+}
+  
+li{
+    text-align: center;
+}
+
+li a:hover:not(.activate){
+    background-color: #ffffff;
+    color: #072146; 
+}
+
+.activate{
+    background-color: #ffffff;
+    color: #072146; 
+}
+
+#div-content{
+    width: 82%;
+    padding: 0;
+    display: inline-flex;
+    justify-content: center;
+    margin-top: 5px;
+}
+
+.card{
+    padding: 20px;
+    display: inline;
+    margin: auto;
+    text-align: center;
+    border: 2px solid #000000;
+}

@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Pago de Servicios</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+    <script src="js/index.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body onload="init()">
+    <h1>BBVA - Pago de Servicios Online</h1>
+    <form method="post" class="formulario">
+        <p id="info_mensaje" hidden></p>
+        <input type="text" id="i_dni" placeholder="DNI" onclick="ocultar_mensaje()"><br><br>
+        <input class="btn-in" type="button" value="Ingresar" onclick="validar()">
+    </form>
+</body>
+</html>
