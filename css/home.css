@@ -109,6 +109,22 @@ li a:hover:not(.activate){
     }
 
     #navbar{
-        display: none;
+        background-color: #072146;
+        width: 100%;
+        display: block;
+        /*vertical-align: top;*/
+    }
+    
+    ul{
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    
+    li{
+      width: 33.3%;  
     }
 }
