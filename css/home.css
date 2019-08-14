@@ -128,6 +128,15 @@ li a:hover:not(.activate){
       width: 33.3%;  
     }
 
+    li a {
+        display: block;
+        color: #ffffff;
+        padding: 8px 16px;
+        text-decoration: none;
+        font-size: 12px;
+        border-bottom: 1px solid #ffffff;
+    }
+
     #div-content{
         width: 100%;
         padding: 0;
