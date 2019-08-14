@@ -98,6 +98,7 @@ li a:hover:not(.activate){
     
     .content-titulo{
         padding: 15px 0;
+        font-size: 20px;
     }
 
     #navbar{
