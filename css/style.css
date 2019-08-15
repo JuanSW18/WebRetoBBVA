@@ -85,6 +85,7 @@ footer{
     }
 
     footer{
-        margin-top: 50px;
+        position: static;
+        margin-top: 75%;
     }
 }
