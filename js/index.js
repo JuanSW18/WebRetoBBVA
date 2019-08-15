@@ -20,8 +20,9 @@ function ocultar_mensaje() {
 }
 
 function showDetail(element) {
-    let padre = $(element).parent();
-    let div = padre.siblings("div");
+    let padre = $(element).parent(); // div class row
+    let div = padre.siblings("div"); // div class content-detail
+    $(".content-detail").not(div).hide();
     div.slideToggle("slow");
     //$(element).addClass("activate");
 }
